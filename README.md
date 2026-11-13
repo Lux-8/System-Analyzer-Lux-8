@@ -1,5 +1,25 @@
-# -System-analyzer-Lux-8-edition-
-This code will help you clean your computer of junk and analyze your system. 
+# System Analyzer (Lux-8 Edition)
 
+Утилита на Python от команды **Lux-8** для диагностики состояния системы, мониторинга ресурсов и очистки компьютера от временных файлов.
 
-To download the zip file with the executable, go to Google Drive: https://drive.google.com/file/d/1FJ76mklSOOSndzl1vyIj5MF8ecH8HBQD/view?usp=sharing
+## Основные функции
+* Анализ загрузки процессора, оперативной памяти и дискового пространства.
+* Поиск и безопасная очистка системного кэша и временных файлов.
+* Удобный запуск как из исходного кода на Python, так и через готовый исполняемый файл.
+
+## Запуск из исходного кода
+1. Клонируйте репозиторий:
+   ```bash
+   git clone https://github.com
+   ```
+2. Установите необходимые библиотеки (например, `psutil` — укажи те, что используются в `app.py`):
+   ```bash
+   pip install psutil
+   ```
+3. Запустите программу:
+   ```bash
+   python app.py
+   ```
+
+## Готовая сборка (Windows)
+Скачать архив с готовым исполняемым файлом можно по ссылке: [Google Drive](https://google.com).
